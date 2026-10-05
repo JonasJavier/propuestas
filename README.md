@@ -15,7 +15,7 @@ Copia pública de las propuestas, servida con GitHub Pages como respaldo de Netl
 | El Tablón Latino | [/el-tablon-latino/](https://jonasjavier.github.io/propuestas/el-tablon-latino/) | [eltablonlatino.netlify.app](https://eltablonlatino.netlify.app) | `el-tablon-latino` |
 | Kukka Beach | [/kukka-beach/](https://jonasjavier.github.io/propuestas/kukka-beach/) | [jonasjavier.github.io/kukka-beach](https://jonasjavier.github.io/kukka-beach/) | `kukka-beach-restaurant` |
 | Sabor Criollo | [/sabor-criollo/](https://jonasjavier.github.io/propuestas/sabor-criollo/) | — | carpeta local `GitHub/sabor-criollo` |
-| La Casita de Mary | pendiente | — | carpeta local `la-casita-de-mary` |
+| La Casita de Mary | [/la-casita-de-mary/](https://jonasjavier.github.io/propuestas/la-casita-de-mary/) | sin créditos en Netlify | `la-casita-de-mary` |
 
 ## Cómo actualizar
 

@@ -1,0 +1,4 @@
+# Propuesta: el sitio no se indexa hasta que el cliente lo apruebe.
+# Para publicarlo, cambia "Disallow: /" por "Allow: /" (ver README).
+User-agent: *
+Disallow: /

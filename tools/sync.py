@@ -34,8 +34,7 @@ SITES = {
         "extra": {"assets/js/config.js": [("github.io/kukka-beach\"", "github.io/propuestas/kukka-beach\"")]},
     },
     "sabor-criollo": {"src": DOCS / "GitHub/sabor-criollo/out"},
-    # Pendiente: se agrega cuando termine la sesión que la está editando.
-    # "la-casita-de-mary": {"src": DOCS / "la-casita-de-mary/..."},
+    "la-casita-de-mary": {"src": DOCS / "la-casita-de-mary/site"},
 }
 
 IGNORE = shutil.ignore_patterns(".git", ".github", "README.md", "netlify.toml", "node_modules", ".DS_Store")
