@@ -1,0 +1,7 @@
+# Propuesta: no indexar mientras no sea el sitio oficial.
+# Al publicarlo como sitio oficial, cambia esto por:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://lacasitadepapi.netlify.app/sitemap.xml
+User-agent: *
+Disallow: /

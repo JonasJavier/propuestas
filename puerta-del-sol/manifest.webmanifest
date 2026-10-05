@@ -1,0 +1,15 @@
+{
+  "name": "Puerta del Sol · Frente al Monumento",
+  "short_name": "Puerta del Sol",
+  "description": "Restaurante frente al Monumento de Santiago de los Caballeros. Abierto todos los días de 8:00 a. m. a 2:00 a. m.",
+  "lang": "es-DO",
+  "start_url": "/propuestas/puerta-del-sol/",
+  "scope": "/propuestas/puerta-del-sol/",
+  "display": "standalone",
+  "background_color": "#1B1D45",
+  "theme_color": "#1B1D45",
+  "icons": [
+    { "src": "/propuestas/puerta-del-sol/assets/img/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/propuestas/puerta-del-sol/assets/img/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,5 @@
+# Propuesta de sitio web: no indexar para no competir con la presencia oficial de Kukka Beach.
+# Cuando el cliente apruebe el sitio, cambia "Disallow: /" por "Allow: /" y quita la
+# etiqueta <meta name="robots" content="noindex, nofollow"> de src/partials/layout.html.
+User-agent: *
+Disallow: /

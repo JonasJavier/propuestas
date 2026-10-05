@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- Prototipo de propuesta: quitar "noindex" cuando el sitio sea oficial -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#111613">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Mrs+Saint+Delafield&family=Urbanist:wght@400..800&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css?v=d32211d1">
+  <meta property="og:site_name" content="Central Gastronómica">
+  <meta property="og:locale" content="es_DO">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:image" content="https://central-gastronomica.netlify.app/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Menú · Central Gastronómica</title>
+  <meta name="description" content="La carta de Central Gastronómica: entradas para compartir, nigiri y maki rolls, risottos, carnes al horno de leña, pescados y pizzas napolitanas. Precios en RD$.">
+  <meta property="og:url" content="https://central-gastronomica.netlify.app/menu.html">
+  <meta property="og:title" content="Menú · Central Gastronómica">
+  <meta property="og:description" content="Entradas, nigiri, risottos, carnes al horno de leña y pizzas desde Nápoles.">
+</head>
+<body data-page="menu">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+  <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><path d="M17.5 6.5h.01"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.11.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.8h-.01a9.9 9.9 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 7 9.9 9.9 0 0 1-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9a11.82 11.82 0 0 0-3.48-8.4Z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2.5"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4.2-4.2"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+  <symbol id="i-access" viewBox="0 0 24 24"><circle cx="16" cy="4" r="1"/><path d="m18 19 1-7-6 1M5 8l3-3 5.5 3-2.36 3.5M4.24 14.5a5 5 0 0 0 6.88 6M13.76 17.5a5 5 0 0 0-6.88-6"/></symbol>
+  <symbol id="i-glass" viewBox="0 0 24 24"><path d="M8 22h8M7 10h10M12 15v7M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+  <symbol id="i-cake" viewBox="0 0 24 24"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1M2 21h20M7 8v3M12 8v3M17 8v3M7 4h.01M12 4h.01M17 4h.01"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+  <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/></symbol>
+</svg>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+  <div class="proposal-note" data-proposal-note role="note">
+    <span data-i18n="note.text">Concepto de sitio web creado como propuesta para Central Gastronómica.</span>
+    <button type="button" aria-label="Cerrar aviso" data-i18n-attr="aria-label:note.close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html" aria-label="Central Gastronómica, inicio" data-i18n-attr="aria-label:a11y.home">
+        <svg class="brand__logo" viewBox="0 0 600 265" aria-hidden="true"><use href="assets/img/logo.svg#logo"/></svg>
+      </a>
+      <nav class="nav-desktop" aria-label="Principal" data-i18n-attr="aria-label:a11y.mainnav">
+        <a href="menu.html" data-nav="menu" aria-current="page" data-i18n="nav.menu">Menú</a>
+        <a href="index.html#noche" data-nav="ambiente" data-i18n="nav.ambience">Ambiente</a>
+        <a href="eventos.html" data-nav="eventos" data-i18n="nav.events">Eventos</a>
+        <a href="index.html#visita" data-nav="visita" data-i18n="nav.visit">Visítanos</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-toggle aria-pressed="false" aria-label="Switch to English" data-i18n-attr="aria-label:a11y.lang">
+          <span data-lang="es" class="is-active">ES</span><i>/</i><span data-lang="en">EN</span>
+        </button>
+        <a class="btn btn--rose btn--sm header-cta" href="#reservar" data-reserve data-i18n="cta.reserve">Reservar mesa</a>
+        <button class="icon-btn menu-toggle" type="button" data-nav-open aria-controls="nav-sheet" aria-expanded="false" aria-label="Abrir menú de navegación" data-i18n-attr="aria-label:a11y.openNav">
+          <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero t-day" aria-labelledby="menu-title">
+      <img class="botanical" src="assets/img/botanical-leaf.webp" alt="" width="560" height="781">
+      <div class="wrap">
+        <p class="eyebrow" data-i18n="menu.eyebrow">Chef ejecutivo · Ricardo Abud</p>
+        <h1 class="display display--xl" id="menu-title" style="margin-top:.75rem" data-i18n="menu.title">La carta</h1>
+        <p class="lede" data-i18n="menu.lede">Para compartir al centro o pedir solo para ti: Perú, Japón, Italia y España en una misma mesa.</p>
+        <div class="page-hero__meta">
+          <p class="status status--plain" data-open-status>
+            <span class="status__dot" aria-hidden="true"></span>
+            <strong data-open-label>Abierto todos los días</strong>
+            <span data-open-detail></span>
+          </p>
+          <a class="link-arrow" href="#reservar" data-reserve><span data-i18n="cta.reserve">Reservar mesa</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="menu-tools">
+      <nav class="menu-chips" data-menu-chips aria-label="Categorías del menú" data-i18n-attr="aria-label:menu.cats"></nav>
+    </div>
+
+    <div class="t-day">
+      <div class="wrap" style="padding-bottom:var(--section-y)">
+        <div class="menu-filters">
+          <label class="search">
+            <span class="sr-only" data-i18n="menu.searchLabel">Buscar en el menú</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <input class="input" type="search" data-menu-search placeholder="Busca un plato o ingrediente" autocomplete="off" data-i18n-attr="placeholder:menu.searchPh">
+          </label>
+          <div class="menu-toggles" role="group" aria-label="Filtros" data-i18n-attr="aria-label:menu.filters">
+            <button class="toggle" type="button" data-filter="fav" aria-pressed="false"><span class="toggle__dot" aria-hidden="true"></span><span data-i18n="tag.fav">Favorito</span></button>
+            <button class="toggle" type="button" data-filter="nuevo" aria-pressed="false"><span class="toggle__dot" aria-hidden="true"></span><span data-i18n="tag.nuevo">Nuevo</span></button>
+            <button class="toggle" type="button" data-filter="sincarne" aria-pressed="false"><span class="toggle__dot" aria-hidden="true"></span><span data-i18n="tag.sincarne">Sin carne</span></button>
+            <button class="toggle" type="button" data-filter="picante" aria-pressed="false"><span class="toggle__dot" aria-hidden="true"></span><span data-i18n="tag.picante">Picante</span></button>
+          </div>
+        </div>
+        <p class="menu-note" data-i18n="menu.note">Precios en pesos dominicanos (RD$), impuestos no incluidos. Pregunta a tu mesero por alérgenos.</p>
+
+        <div data-menu-list aria-live="polite"></div>
+
+        <div class="menu-empty" data-menu-empty hidden>
+          <p class="display" data-i18n="menu.emptyTitle">No hay platos con esa búsqueda.</p>
+          <p data-i18n="menu.emptyText">Prueba con otro ingrediente o quita los filtros.</p>
+          <button class="btn btn--sm" type="button" data-menu-reset data-i18n="menu.reset">Quitar filtros</button>
+        </div>
+
+        <aside class="menu-end">
+          <p class="script" style="font-size:2.75rem;color:var(--olive)" aria-hidden="true">Central</p>
+          <p class="display" style="font-size:var(--step-2)" data-i18n="menu.endTitle">¿Ya sabes qué vas a pedir?</p>
+          <div style="display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center">
+            <a class="btn btn--rose" href="#reservar" data-reserve><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="cta.reserve">Reservar mesa</span></a>
+            <a class="btn btn--ghost" href="#" data-wa="wa.menu" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="menu.ask">Preguntar por WhatsApp</span></a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div>
+          <svg class="footer__logo" viewBox="0 0 600 265" role="img" aria-label="Central"><use href="assets/img/logo.svg#logo"/></svg>
+          <p class="footer__tagline" data-i18n="footer.tagline">Cocina de autor en el corazón de Naco, desde 2018. Un restaurante de Food Invest DR.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/centralsdq/" target="_blank" rel="noopener" aria-label="Instagram @centralsdq"><svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg></a>
+            <a href="https://www.facebook.com/centralrd" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-fb"/></svg></a>
+            <a href="#" data-wa target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__title" data-i18n="footer.visit">Visítanos</p>
+          <address class="footer__links" style="font-style:normal">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Central+Gastron%C3%B3mica%2C+Av.+Tiradentes+11%2C+Santo+Domingo" target="_blank" rel="noopener">Av. Tiradentes No. 11, Ensanche Naco</a>
+            <a href="tel:+18094877842"><span data-i18n="footer.phone">Teléfono</span>&nbsp;(809) 487-7842</a>
+            <a href="#" data-wa target="_blank" rel="noopener"><span data-i18n="footer.wa">WhatsApp</span>&nbsp;(809) 429-0000</a>
+          </address>
+        </div>
+        <div>
+          <p class="footer__title" data-i18n="footer.explore">Explora</p>
+          <nav class="footer__links" aria-label="Pie de página" data-i18n-attr="aria-label:a11y.footnav">
+            <a href="menu.html" data-i18n="nav.menu">Menú</a>
+            <a href="eventos.html" data-i18n="nav.events">Eventos</a>
+            <a href="#reservar" data-reserve data-i18n="cta.reserve">Reservar mesa</a>
+            <a href="https://www.opentable.com/restaurant/profile/1032241" target="_blank" rel="noopener">OpenTable</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__base">
+        <p>© <span data-year>2026</span> Central Gastronómica · Santo Domingo, República Dominicana</p>
+        <p data-i18n="footer.proposal">Concepto de sitio web · propuesta no oficial</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Acciones rápidas en móvil -->
+  <nav class="action-bar" aria-label="Acciones rápidas" data-i18n-attr="aria-label:a11y.quick">
+    <a href="menu.html" data-nav="menu" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-utensils"/></svg><span data-i18n="bar.menu">Menú</span></a>
+    <a href="https://www.google.com/maps/search/?api=1&amp;query=Central+Gastron%C3%B3mica%2C+Av.+Tiradentes+11%2C+Santo+Domingo" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="bar.map">Llegar</span></a>
+    <a href="#" data-wa target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+    <a class="btn btn--rose" href="#reservar" data-reserve><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="cta.reserveShort">Reservar</span></a>
+  </nav>
+
+  <!-- Navegación móvil -->
+  <dialog class="nav-sheet" id="nav-sheet" aria-label="Navegación" data-i18n-attr="aria-label:a11y.nav">
+    <div class="nav-sheet__inner">
+      <div class="nav-sheet__top">
+        <a class="brand" href="index.html" aria-label="Central Gastronómica, inicio" data-i18n-attr="aria-label:a11y.home">
+          <svg class="brand__logo" viewBox="0 0 600 265" aria-hidden="true"><use href="assets/img/logo.svg#logo"/></svg>
+        </a>
+        <button class="icon-btn" type="button" data-nav-close aria-label="Cerrar menú" data-i18n-attr="aria-label:a11y.closeNav">
+          <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+      <nav class="nav-sheet__links" aria-label="Principal" data-i18n-attr="aria-label:a11y.mainnav">
+        <a href="index.html" data-nav="inicio"><span data-i18n="nav.home">Inicio</span></a>
+        <a href="menu.html" data-nav="menu" aria-current="page"><span data-i18n="nav.menu">Menú</span><small data-i18n="nav.menuNote">Carta completa</small></a>
+        <a href="index.html#noche"><span data-i18n="nav.ambience">Ambiente</span><small data-i18n="nav.ambienceNote">Galería</small></a>
+        <a href="eventos.html" data-nav="eventos"><span data-i18n="nav.events">Eventos</span><small data-i18n="nav.eventsNote">Celebraciones</small></a>
+        <a href="index.html#visita"><span data-i18n="nav.visit">Visítanos</span><small data-i18n="nav.visitNote">Horario y ubicación</small></a>
+      </nav>
+      <div class="nav-sheet__foot">
+        <p class="status status--plain nav-sheet__status" data-open-status>
+          <span class="status__dot" aria-hidden="true"></span>
+          <strong data-open-label>Abierto todos los días</strong>
+          <span data-open-detail>desde las 12:00 p. m.</span>
+        </p>
+        <a class="btn btn--rose btn--block" href="#reservar" data-reserve><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="cta.reserve">Reservar mesa</span></a>
+        <a class="btn btn--ghost btn--block" href="#" data-wa target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="cta.whatsapp">Escribir por WhatsApp</span></a>
+        <div class="nav-sheet__social">
+          <a class="icon-btn" href="https://www.instagram.com/centralsdq/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg></a>
+          <a class="icon-btn" href="https://www.facebook.com/centralrd" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-fb"/></svg></a>
+          <a class="icon-btn" href="tel:+18094877842" aria-label="Llamar al restaurante" data-i18n-attr="aria-label:a11y.call"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></a>
+        </div>
+      </div>
+      <img class="nav-sheet__botanical" src="assets/img/botanical-leaf.webp" alt="" width="560" height="781" loading="lazy">
+    </div>
+  </dialog>
+
+  <!-- Reserva por WhatsApp -->
+  <dialog class="sheet" id="reserva" aria-labelledby="reserva-title">
+    <div class="sheet__scroll">
+      <div class="sheet__grab" aria-hidden="true"></div>
+      <header class="sheet__head">
+        <div>
+          <h2 id="reserva-title" data-i18n="res.title">Reserva tu mesa</h2>
+          <p data-i18n="res.sub">Completa los datos y te confirmamos por WhatsApp.</p>
+        </div>
+        <button class="icon-btn sheet__close" type="button" data-sheet-close aria-label="Cerrar" data-i18n-attr="aria-label:a11y.close">
+          <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </header>
+      <div class="sheet__body">
+        <form class="form" id="reserva-form">
+          <div class="field">
+            <label for="r-nombre" data-i18n="res.name">Nombre</label>
+            <input class="input" id="r-nombre" name="nombre" type="text" autocomplete="name" required placeholder="Tu nombre y apellido" data-i18n-attr="placeholder:res.namePh">
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="r-fecha" data-i18n="res.date">Fecha</label>
+              <input class="input" id="r-fecha" name="fecha" type="date" required>
+            </div>
+            <div class="field">
+              <label for="r-hora" data-i18n="res.time">Hora</label>
+              <select class="select" id="r-hora" name="hora" required></select>
+            </div>
+          </div>
+          <p class="form__hint" data-time-note hidden><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg><span data-i18n="res.noTimes">Para esa fecha ya no quedan horarios. Elige otro día.</span></p>
+          <div class="field">
+            <span class="label" id="r-personas-l" data-i18n="res.people">Personas</span>
+            <div class="stepper" role="group" aria-labelledby="r-personas-l">
+              <button type="button" data-step="-1" aria-label="Una persona menos" data-i18n-attr="aria-label:res.less"><svg class="icon" aria-hidden="true"><use href="#i-minus"/></svg></button>
+              <input name="personas" type="number" inputmode="numeric" min="1" max="40" value="2" aria-labelledby="r-personas-l" required>
+              <button type="button" data-step="1" aria-label="Una persona más" data-i18n-attr="aria-label:res.more"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button>
+            </div>
+          </div>
+          <p class="form__hint" data-big-group hidden><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><span data-i18n-html="res.bigGroup">¿Grupo grande? Para 13 personas o más, <a href="eventos.html">cotiza un evento</a> y te proponemos espacio y menú.</span></p>
+          <fieldset>
+            <legend data-i18n="res.occasion">Ocasión</legend>
+            <div class="chips">
+              <label class="chip-radio"><input type="radio" name="ocasion" value="ninguna" checked><span data-i18n="occ.none">Ninguna en especial</span></label>
+              <label class="chip-radio"><input type="radio" name="ocasion" value="cumple"><span data-i18n="occ.cumple">Cumpleaños</span></label>
+              <label class="chip-radio"><input type="radio" name="ocasion" value="aniversario"><span data-i18n="occ.aniversario">Aniversario</span></label>
+              <label class="chip-radio"><input type="radio" name="ocasion" value="negocios"><span data-i18n="occ.negocios">Comida de negocios</span></label>
+              <label class="chip-radio"><input type="radio" name="ocasion" value="cita"><span data-i18n="occ.cita">Cita</span></label>
+              <label class="chip-radio"><input type="radio" name="ocasion" value="amigos"><span data-i18n="occ.amigos">Salida con amigos</span></label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="r-nota"><span data-i18n="res.note">Nota</span> <span class="muted" data-i18n="res.optional">(opcional)</span></label>
+            <textarea class="textarea" id="r-nota" name="nota" rows="2" placeholder="Terraza o salón, alergias, silla para bebé…" data-i18n-attr="placeholder:res.notePh"></textarea>
+          </div>
+          <div class="form__foot">
+            <button class="btn btn--rose btn--block" type="submit"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="res.submit">Enviar solicitud por WhatsApp</span></button>
+            <p data-i18n="res.legal">Se abrirá WhatsApp con tu solicitud lista para enviar. La reserva queda confirmada cuando Central te responda.</p>
+          </div>
+          <p class="form__alt"><span data-i18n="res.alt">¿Prefieres llamar?</span> <a href="tel:+18094877842">(809) 487-7842</a></p>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Galería a pantalla completa -->
+  <dialog class="lightbox" id="lightbox" aria-label="Galería de fotos" data-i18n-attr="aria-label:a11y.gallery">
+    <div class="lightbox__track"></div>
+    <div class="lightbox__bar lightbox__bar--top">
+      <span class="lightbox__count" data-lb-count aria-live="polite"></span>
+      <button class="icon-btn" type="button" data-sheet-close aria-label="Cerrar galería" data-i18n-attr="aria-label:a11y.closeGallery"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="lightbox__bar lightbox__bar--bottom">
+      <button class="icon-btn" type="button" data-lb-prev aria-label="Foto anterior" data-i18n-attr="aria-label:a11y.prev"><svg class="icon" aria-hidden="true"><use href="#i-chev-l"/></svg></button>
+      <button class="icon-btn" type="button" data-lb-next aria-label="Foto siguiente" data-i18n-attr="aria-label:a11y.next"><svg class="icon" aria-hidden="true"><use href="#i-chev-r"/></svg></button>
+    </div>
+  </dialog>
+
+  <script src="assets/js/config.js?v=18940f91" defer></script>
+  <script src="assets/js/i18n.js?v=4c25c2b0" defer></script>
+  <script src="assets/js/i18n-en.js?v=f249aad4" defer></script>
+  <script src="assets/js/main.js?v=a845899f" defer></script>
+  <script src="assets/js/menu-data.js?v=a483dd69" defer></script>
+  <script src="assets/js/menu.js?v=be6fd1ef" defer></script>
+</body>
+</html>

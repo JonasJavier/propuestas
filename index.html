@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Propuestas web · Jonas</title>
+<style>
+  :root { --bg:#f7f5f0; --fg:#1d1b18; --muted:#6b665e; --card:#fff; --line:#e4dfd5; --accent:#b4532a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#151412; --fg:#eeebe4; --muted:#a39d92; --card:#1e1c19; --line:#34302a; --accent:#e08a5c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:56px 16px 72px; }
+  h1 { font-size:clamp(1.8rem, 4vw, 2.4rem); margin:0 0 6px; letter-spacing:-.02em; }
+  p.lead { color:var(--muted); margin:0 0 36px; }
+  ul { list-style:none; padding:0; margin:0; display:grid; gap:12px; grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)); }
+  a.card { display:block; height:100%; padding:18px 20px; background:var(--card); border:1px solid var(--line); border-radius:12px; color:inherit; text-decoration:none; transition:border-color .15s, transform .15s; }
+  a.card:hover, a.card:focus-visible { border-color:var(--accent); transform:translateY(-2px); }
+  .name { font-weight:650; font-size:1.05rem; }
+  .meta { color:var(--muted); font-size:.9rem; margin-top:2px; }
+  .go { color:var(--accent); font-size:.85rem; margin-top:12px; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Propuestas web</h1>
+  <p class="lead">Sitios de demostración preparados para restaurantes de República Dominicana.</p>
+  <ul>
+    <li><a class="card" href="la-casita-de-papi/"><div class="name">La Casita de Papi</div><div class="meta">Mariscos · Cabarete</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="paladart/"><div class="name">Paladart</div><div class="meta">Parrilla argentina · Juan Dolio</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="central-gastronomica/"><div class="name">Central Gastronómica</div><div class="meta">Restaurante · Naco, Santo Domingo</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="plaza-merengue/"><div class="name">Plaza Merengue</div><div class="meta">Restaurante y pizzería · Bonao</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="puerta-del-sol/"><div class="name">Puerta del Sol</div><div class="meta">Restaurante · Santiago</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="the-deck/"><div class="name">The Deck</div><div class="meta">Café y bakery · Santiago</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="el-tablon-latino/"><div class="name">El Tablón Latino</div><div class="meta">Restaurante · Santiago</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="kukka-beach/"><div class="name">Kukka Beach</div><div class="meta">Restaurante de playa · Bayahíbe</div><div class="go">Ver propuesta →</div></a></li>
+    <li><a class="card" href="sabor-criollo/"><div class="name">Sabor Criollo</div><div class="meta">Comida dominicana · Santo Domingo Este</div><div class="go">Ver propuesta →</div></a></li>
+  </ul>
+  <footer>Jonas · Desarrollo web</footer>
+</main>
+</body>
+</html>

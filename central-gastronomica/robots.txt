@@ -1,0 +1,7 @@
+# Prototipo de propuesta: no indexar todavía.
+# Cuando el sitio sea oficial, reemplazar por:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://TU-DOMINIO/sitemap.xml
+User-agent: *
+Disallow: /

@@ -1,0 +1,18 @@
+# Propuesta de sitio web: no indexar en buscadores mientras no sea el sitio oficial.
+# Los lectores de vistas previas (WhatsApp, Facebook, X) sí pueden leer la página
+# para mostrar la imagen y el título cuando se comparte el enlace.
+# Para publicarlo de verdad, deja solo "User-agent: *" con "Allow: /" (ver README).
+User-agent: WhatsApp
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: *
+Disallow: /

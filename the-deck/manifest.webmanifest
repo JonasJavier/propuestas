@@ -1,0 +1,29 @@
+{
+  "name": "The Deck · Santiago",
+  "short_name": "The Deck",
+  "description": "Café, bakery y cocina saludable al final de la calle, Av. Rafael Vidal, Santiago.",
+  "lang": "es-DO",
+  "start_url": "/propuestas/the-deck/",
+  "scope": "/propuestas/the-deck/",
+  "display": "standalone",
+  "background_color": "#F4F3EF",
+  "theme_color": "#1C2D51",
+  "icons": [
+    {
+      "src": "/propuestas/the-deck/assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/propuestas/the-deck/assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/propuestas/the-deck/assets/img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
